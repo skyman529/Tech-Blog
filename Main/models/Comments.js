@@ -15,13 +15,22 @@ Comments.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id'
+      },
+      onDelete: 'SET NULL'
+    },
     blogposts_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "blogposts",
-        key: "id",
+        model: 'blogposts',
+        key: 'id'
       },
-    },
+      onDelete: 'SET NULL'
+    }
   },
   {
     sequelize,
