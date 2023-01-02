@@ -1,7 +1,7 @@
 {
-  "name": "crowd-funding",
+  "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": " a CMS-style blog site similar to a Wordpress site",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
