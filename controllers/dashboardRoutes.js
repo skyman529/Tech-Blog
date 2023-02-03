@@ -2,7 +2,6 @@ const router = require("express").Router();
 const { Blogposts } = require("../models/");
 const withAuth = require("../utils/auth");
 
-//Finding all the existing blog posts
 router.get("/", withAuth, async (req, res) => {
   try {
     const Blogposts = await BlogPost.findAll({
@@ -22,7 +21,6 @@ router.get("/", withAuth, async (req, res) => {
   }
 });
 
-//Get a create blog form
 router.get("/blog", withAuth, (req, res) => {
   res.render("blog", {
     layout: "dashboard",
@@ -30,7 +28,6 @@ router.get("/blog", withAuth, (req, res) => {
   });
 });
 
-//Allows the user to edit a single post
 router.get("/edit/:id", withAuth, async (req, res) => {
   try {
     const blogData = await BlogPost.findByPk(req.params.id);
