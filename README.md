@@ -1,5 +1,5 @@
 # Tech-Blog
-this was tough to go back to after so long but It was nice to refresh me on the older assignments the blog is semi operational now
+this was tough to go back to after so long but It was nice to refresh me on the older assignments the blog is semi operational now worked on getting it up to heroku with my tutor for the entire final session bu not sure why it wont deploy
 ## Your Task
 
 Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
