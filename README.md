@@ -54,4 +54,4 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Mock-Up
 
-created using Handlebars, Sequelize,  Express, and mysql2
+created using Handlebars, Sequelize,  Express, JawsDB, and mysql2
